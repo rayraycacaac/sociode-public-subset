@@ -10,6 +10,8 @@ The release contains the history-pooling module, prototype initialization and in
 
 The full text-encoding pipeline, LLM routing and distillation, persistent cross-event history maintenance, original trained checkpoints, and adaptations of the named comparison methods are not included. The example does not reproduce the manuscript's Weibo results or sensitivity tables. Its scores describe only the supplied integration example.
 
+Computational environment. The research experiments were conducted on an NVIDIA GeForce RTX 4090 GPU. The public demonstration included in this repository supports CPU execution and does not require a GPU. Its execution settings differ from those of the full experimental pipeline.
+
 ## Quick start
 
 Use Python 3.10–3.12. No GPU, external dataset, API key, or downloaded language model is required.
